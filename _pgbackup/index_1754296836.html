@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Fuerst Files</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:700&display=swap" rel="stylesheet">
+        < <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+            <style>.mission-text { font-family: 'Special Elite', monospace; font-size: 16px;  /* or whatever size looks best */ line-height: 1.6; color: #000; } .legal-claims li { margin-bottom: 16px; } .regulator-list { font-size: 0.75rem; line-height: 1.4; max-width: 90%; margin: 0 auto; word-break: break-word; padding-left: 12px; } .regulator-list a { word-break: break-all;  /* Ensures long emails wrap */ } body { margin: 0; padding: 0; background-color: #f5ead7; font-family: 'Special Elite', monospace; } /* NEW: center everything safely */.page-wrapper { max-width: 500px; margin: 0 auto; padding: 0 16px; box-sizing: border-box; } .container { border: 2px solid #cc0000; border-radius: 20px; padding: 24px; margin-top: 20px; background-color: #fff; box-shadow: 0 0 10px rgba(204, 0, 0, 0.2); text-align: center; width: 100%; } .fuerst-button.active { background-color: #990000 !important; color: white; border-color: #660000; } .legal-claims { padding: 12px; border: 2px dashed #cc0000; border-radius: 10px; background-color: #fff9f9; } .header { display: flex; justify-content: center; align-items: center; gap: 14px; margin-bottom: 10px; } .biohazard { font-size: 3em; color: #cc0000; animation: biohazard-pulse 2.5s ease-in-out infinite; text-shadow: 0 0 2px #b30000,
+    0 0 6px #cc0000,
+    0 0 10px #ff0000; filter: drop-shadow(0 0 4px #ff0000); } .fuerst-title { font-size: 2.1rem; color: #cc0000; text-shadow: 0 0 4px #cc0000; animation: pulse-glow 2s infinite ease-in-out; } .fuerst-section-title { text-align: center; font-weight: bold; font-size: 1.2rem; color: #aa0000; } @keyframes pulse-glow { 0% {  text-shadow: 0 0 2px #cc0000;  opacity: 1; }  50% {  text-shadow: 0 0 2px #ff0000;  opacity: 0.85; }  100% {  text-shadow: 0 0 2px #cc0000;  opacity: 1; } } @keyframes biohazard-pulse { 0%, 100% {  text-shadow: 0 0 2px #b30000, 0 0 6px #cc0000, 0 0 10px #ff0000;  filter: drop-shadow(0 0 2px #ff0000);  transform: scale(1); }  50% {  text-shadow: 0 0 6px #ff3333, 0 0 10px #ff0000, 0 0 14px #ff3333;  filter: drop-shadow(0 0 8px #ff3333);  transform: scale(1.04); } } .subtitle { font-size: 1.25rem; margin-top: 10px; } .disclaimer { font-size: 0.85rem; margin-top: 8px; margin-bottom: 16px; padding: 0 12px; color: #222; } .ghost-text { font-size: 1.2rem; text-align: center; margin: 0 auto; max-width: 95%; } .ghost-sub { font-size: 1rem; color: #222; font-style: italic; opacity: 0.8; animation: ghostPulse 4s infinite ease-in-out; } .flicker-red { animation: flicker 2s infinite alternate; color: #8b0000; font-family: 'Creepster', cursive; text-shadow: 0 0 2px #ff0000, 0 0 5px #8b0000; } @keyframes flicker { 0%, 100% {  opacity: 1; }  50% {  opacity: 0.4; } } @keyframes ghostFade { 0%, 100% {  opacity: 1;  text-shadow: 0 0 4px rgba(255, 0, 0, 0.6), 0 0 10px rgba(255, 0, 0, 0.3); }  50% {  opacity: 0.5;  text-shadow: 0 0 10px rgba(255, 0, 0, 0.9), 0 0 20px rgba(255, 0, 0, 0.5); } } @keyframes logo-pulse { 0%, 100% {  text-shadow: 0 0 2px #b30000, 0 0 4px #ff0000;  filter: drop-shadow(0 0 2px #b30000); }  50% {  text-shadow: 0 0 4px #ff3333, 0 0 6px #ff0000;  filter: drop-shadow(0 0 4px #ff0000); } } .metadata-center { text-align: center; font-size: 1rem; color: red; font-family: 'Special Elite', monospace; margin-top: 1rem; } /* Flickering animation */@keyframes flicker { 0% {  opacity: 1; }  45% {  opacity: 0.6; }  70% {  opacity: 0.85; }  100% {  opacity: 1; } } .fuerst-button { padding: 6px 12px; font-size: 1rem; line-height: 1.2; text-align: center; font-family: 'Special Elite', monospace; border: 2px solid #aa0000; background-color: white; color: black; cursor: pointer; transition: background-color 0.3s ease; display: block; margin: 10px auto; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 260px; } @media screen and (max-width: 600px) { .toggle-btn, .fuerst-button {  min-width: 240px;  max-width: 240px;  height: 44px;  font-size: 1rem;  line-height: 1.2;  padding: 8px 12px;  white-space: nowrap;  overflow: hidden;  text-overflow: ellipsis;  text-align: center;  border: 2px solid #aa0000;  font-family: 'Special Elite', monospace;  cursor: pointer;  transition: background-color 0.3s ease; } } .testimony-box { background-image: url('parchment-bg.png');  /* replace with your actual file path */ background-size: cover; background-position: center; background-repeat: no-repeat; padding: 24px; margin: 20px auto; border-radius: 20px; max-width: 540px; font-family: 'Special Elite', monospace; font-size: 16px; line-height: 1.6; color: #222; box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.05), 0 6px 12px rgba(0, 0, 0, 0.15); border: 2px solid #cc0000; } .testimony-background { background-color: #fff9f9;  /* matches other section backgrounds */ background-image: url("/mnt/data/14ca1e19-c580-455d-93db-d6c3896d56f9.png"); background-size: contain;  /* optional: 'cover' may look zoomed on small screens */ background-repeat: no-repeat; background-position: center; border: 2px solid #cc0000;  /* matches red border style */ border-radius: 16px; padding: 20px; margin: 0 auto; max-width: 500px; box-shadow: none;  /* match other flat panels */ } .container { padding: 16px; max-width: 480px; margin: 0 auto; box-sizing: border-box; } .fuerst-section { display: none; background-color: #fff4f4; border: 2px solid #cc0000; padding: 16px; border-radius: 12px; font-family: 'Special Elite', monospace; text-align: left; width: 100%; box-sizing: border-box; } .flicker-red { animation: flicker 1.5s infinite; } @keyframes glitch-flicker { 0%, 100% {  opacity: 1;  transform: translate(0); }  48% {  opacity: 0.9; }  50% {  transform: translateX(-1px);  opacity: 0.6; }  52% {  transform: translateX(1px); }  54% {  transform: translateX(0);  opacity: 1; } } @keyframes shake { 0%, 100% {  transform: translateX(0); }  20%, 60% {  transform: translateX(-2px); }  40%, 80% {  transform: translateX(2px); } } .shake { display: inline-block; animation: shake 0.5s infinite; } body::before { content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(ellipse at center, rgba(255,0,0,0.05) 0%, rgba(255,255,255,0) 100%); z-index: -1; animation: backgroundPulse 12s infinite ease-in-out; } .pandora-block { text-align: center; padding: 1rem; } .meta-lock { display: flex; justify-content: center; align-items: center; text-align: center; margin-top: 1rem; width: 100%; } .damages-tally { text-align: center; font-size: 1.15rem; font-family: 'Special Elite', monospace; margin-bottom: 4px; padding: 4px 10px; color: #f7d600; text-shadow: 0 0 4px #fff200, 0 0 8px #ffcc00; } .amount-highlight { font-weight: bold; color: #ffec3d; text-shadow: 0 0 4px #fffa88, 0 0 12px #ffff00; } .tally-disclaimer { font-size: 0.8rem; font-family: 'Special Elite', monospace; color: #222;  /* Changed from #444 for slightly darker text */ text-align: center; max-width: 95%; margin: 8px auto 16px auto; line-height: 1.5; opacity: 0.95; background-color: #fff8dc;  /* light parchment tone */ border: 1px dashed #cc0000; border-radius: 8px; padding: 8px 12px; box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); } .flashing-red { color: red; font-size: 1rem; animation: flicker 1.2s infinite alternate; font-family: 'Special Elite', monospace; text-align: center; } @keyframes flicker { 0% {  opacity: 1; }  45% {  opacity: 0.4; }  100% {  opacity: 1; } } .flashing-red { color: red; font-size: 1rem;  /* Adjust as needed */ animation: flicker 1.2s infinite alternate; font-family: 'Special Elite', monospace;  /* or your chosen font */ } .meta-lock-container { display: flex; justify-content: center; align-items: center; text-align: center; margin-top: 1rem; } .meta-lock { color: red; font-family: 'Special Elite', monospace; font-size: 1rem; animation: flickerAnimation 1.5s infinite alternate; } .button-container { display: flex; flex-direction: column; align-items: center; gap: 12px; max-width: 280px; margin: 0 auto; } @keyframes flickerAnimation { 0% {  opacity: 1; }  45% {  opacity: 0.7; }  60% {  opacity: 0.85; }  75% {  opacity: 0.6; }  100% {  opacity: 1; } } @keyframes flicker { 0% {  opacity: 1; }  45% {  opacity: 0.5; }  100% {  opacity: 1; } } @keyframes flicker { 0% {  opacity: 1; }  100% {  opacity: 0.5; } } /* Optional flicker animation */@keyframes flicker { 0% {  opacity: 1; }  100% {  opacity: 0.5; } } .metadata-line { text-align: center; margin-top: 0.5rem; } <style>
+.pandora-title { margin-top: 1rem; } .meta-lock { text-align: center; color: red; font-size: 0.9rem; margin-top: 0.25rem; } .flicker { animation: flickerAnimation 1.6s infinite alternate; text-shadow: 0 0 5px red; } @keyframes flickerAnimation { 0% {  opacity: 1; }  50% {  opacity: 0.4; }  100% {  opacity: 1; } } @keyframes flickerAnimation { 0% {  opacity: 1; }  50% {  opacity: 0.6; }  100% {  opacity: 1; } } .fuerst-button:hover { background-color: #a00000; } <style>
+.button-vertical { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-bottom: 20px; } .button-stack { display: flex; flex-direction: column; align-items: center; gap: 12px;  /* Uniform vertical spacing */ margin-top: 20px; } .button-group { margin: 16px auto; max-width: 600px; display: flex; flex-direction: column; align-items: center; gap: 4px; } .toggle-btn { width: 100%; max-width: 240px; height: 48px; padding: 12px 16px; font-size: 15px; background-color: #cc0000; color: black;  /* 👈 white text */ border: none; border-radius: 10px; font-family: 'Special Elite', monospace; cursor: pointer; box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; text-align: center; white-space: nowrap; } .toggle-btn:hover { background-color: #990000; } .toggle-btn:hover { background-color: #990000; transform: scale(1.02); } .evidence-content { display: none; background-color: #fff9f9; padding: 12px; margin-top: 10px; border-left: 4px solid #cc0000; border-radius: 6px; font-size: 0.95rem; line-height: 1.6; text-align: left; }</style>
+            <!-- 🔍 Pandora ECCO Quote -->
+            <style>.pandora-title { text-align: center; font-weight: bold; font-size: 1.3rem; color: #b30000; margin-top: 2rem; } .meta-lock { text-align: center; font-size: 0.9rem; color: red; margin-top: 0.2rem; } .flicker { animation: flickerAnimation 1.6s infinite alternate; } @keyframes flickerAnimation { 0% {  opacity: 1; }  45% {  opacity: 0.4; }  100% {  opacity: 1; } }
+  
+
+}</style>
+        </style>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div class="header"><span class="biohazard">☣</span>
+                <h1 class="pulseglow fuerst-title">FUERST<br>FILES</h1><span class="biohazard">☣</span>
+            </div>
+        </div>
+        <div style="height: 12px;"></div>
+        <div class="container max-w-2xl mx-auto px-4 w-full">
+            <div class="slogan-container">
+                <div class="slogan-line"><strong>Their slogan said</strong> <span class="gold-glow">4 Success</span>
+                </div>
+                <div class="slogan-line"><em><strong>they just never said</strong> <span class="ultimate-glitch">whose</span></em>
+                </div>
+            </div>
+            <div class="damages-tally flicker-tally" style="text-align: center; font-family: 'Special Elite', monospace; line-height: 1.6; margin-bottom: 12px;">
+                <div style="font-size: 1.1rem;"><span style="
+      color: gold; 
+      font-weight: bold;
+      text-shadow: 
+        0 0 2px #cc9900, 
+        0 0 6px #ffcc00, 
+        0 0 8px #ffb300, 
+        0 0 12px #ffaa00, 
+        2px 2px 3px #000;">
+      Total Damages </span><br><span style="
+      display: inline-block;
+      margin-top: 6px;
+      margin-bottom: 8px;
+      color: gold; 
+      font-weight: bold;
+      font-size: 1.7rem;
+      text-shadow: 
+        0 0 4px #ffd700, 
+        0 0 8px #ffc300, 
+        0 0 12px #ffae00, 
+        0 0 16px #ff9900, 
+        0 0 20px #ff8800, 
+        2px 2px 4px #000;">
+      $999,000,000+ </span>
+                </div>
+                <div style="
+    font-size: 0.7rem; 
+    color: gold; 
+    text-shadow: 
+      0 0 3px #cc9900, 
+      0 0 5px #ffcc00, 
+      0 0 7px #ffaa00, 
+      2px 2px 2px #000;">
+                    (we stopped counting at a billion)
+</div>
+            </div>
+            <div class="button-group">
+                <button onclick="toggleActive(this); toggleTestimony()" class="fuerst-button max-w-xs mx-auto w-full" style="width: 200px;">Read My Testimony</button>
+                <div id="testimonySection" class="testimony-background" style="display: none;">
+                    <div class="mission-text">
+                        <h2 style="text-align: center; font-weight: bold; font-size: 1.2rem; color: #aa0000;">My Story</h2>
+                        <p>I am a former student of Marsha Fuerst School of Nursing – Riverside, as well as a whistleblower and journalist. I was a dedicated and high-achieving student, earning excellent grades and thriving academically. I even took time out of my studies to tutor fellow students free of charge. I had a dream of becoming a nurse — a dream that, in my view, was derailed by retaliation and a false narrative.</p>
+                        <p>On July 3, 2025, I submitted formal Title IX complaints regarding protected concerns I had witnessed. Just days later, I was summoned by the campus Dean to a sudden, high-pressure meeting — under threat of being removed from clinicals — despite having spent the prior 3–4 days attempting to contact both the Dean and Clinical Coordinator, with no response.</p>
+                        <p>When I arrived on campus, I respectfully requested to sign the paperwork in the hallway. This request was based on a prior disclosure to the Chief Nursing Officer of Success Education Colleges that I felt unsafe in closed-door meetings with certain administrators due to past unethical behavior. My ADA rights and disability-related concerns were dismissed. I was forced into a private office, where I experienced coercion, harassment, and targeted intimidation — all of which I believe constituted unlawful retaliation.</p>
+                        <p>During the meeting, I was presented with a vague clinical document that included unclear expectations such as “ambulate the patient twice daily.” When I asked, “What if the patient is bedbound?” the clinical coordinator admitted she could not provide proper clarification and said I could speak with my professor the next day.</p>
+                        <p>I then asked why I wasn’t reviewing and signing the document with my professor instead — a reasonable and logical question — but this was brushed aside with, “I’m not doing this with you.” I asked if I could take a photo of the document so I could review it later. That request was denied, and she again repeated, “I’m not doing this with you,” simply because I was standing up for my federally protected rights.</p>
+                        <p>Moments later, the campus director — whom I had previously submitted a complaint against — backtracked and said I could have a copy. She then escalated pressure, stating that if I didn’t sign immediately, I might not be allowed to attend clinicals.</p>
+                        <p>I reminded them that students have the legal right to review documents before signing and to receive proper education about expectations — which they clearly failed to provide. Instead of honoring that, they began portraying me as uncooperative for asserting my rights.</p>
+                        <p>Disturbed by the interaction, I left the office visibly shaken. A concerned professor witnessed this and looked concerned for me. I told her, “They are so unethical,” twice. She entered the office, appearing ready to advocate on my behalf.</p>
+                        <p>Shortly afterward, Gia — the Nursing Specialist who had witnessed the meeting — came out to check on me, which directly contradicts any later claim that they felt “threatened” by me. She attempted to de-escalate the situation in the hallway by encouraging me to sign — although her approach was more subtle than her colleagues’, it was still part of the ongoing pressure.</p>
+                        <p>I believe this entire interaction was designed to rattle me and frame me as emotionally unstable. They knew there wouldn’t be witnesses in that office.</p>
+                        <p>Before I left, I called for the resignation of those involved — a moment of emotional expression I now recognize may not have been ideal. But in my defense, no student with a formally recognized ADA diagnosis of Generalized Anxiety Disorder should ever be subjected to a coercive, high pressure meeting designed to intimidate, bully, and silence them.</p>
+                        <p>I also calmly spoke to my friends from Cohort #3 for several minutes in front of the building. There was no sign of concern from staff, security, or faculty — no one asked me to leave or treated me as a threat, which directly contradicts the later claim that I was “threatening.”</p>
+                        <p>Later that night, around 11:00 PM, I received an email stating I was banned from campus — many hours after the 2:30 PM meeting. I did not see the email until I was already on campus the next morning, where I was met with visible hostility from security. I believe this was preplanned to enhance the narrative that I was coming to school to cause disruption — which was absolutely not the case.</p>
+                        <p>Upon reading the message, I left immediately and parked in a nearby public area. From my vehicle, I briefly recorded the security guard and the nursing specialist appearing to discuss me with someone over the phone. I suspected they might call police painting a false narrative of me, so I promptly left campus.</p>
+                        <p>I was formally notified of my dismissal shortly afterward. I submitted an appeal, which was acknowledged — then ignored for 14 days. Two weeks later, I received my official expulsion notice.</p>
+                        <p>I was falsely labeled as “threatening” — a characterization I adamantly reject and consider defamatory.</p>
+                        <p>Now, before litigation proceeds, I am telling my story — not just for myself, but for every student who has been silenced, coerced, or discarded by systems that claim to serve education and justice, yet operate through intimidation and fear.</p>
+                        <p>This archive was not created by choice, but by necessity — a direct response to systemic silencing, institutional evasion, and the attempted erasure of lived truth. What you find here may disturb, but it is not fiction. It is evidence. It is testimony. It is the record they tried to bury.</p>
+                        <p>I will never back down until my record is cleared and the terms of my current good faith settlement proposal are fully met. My goal is to secure justice not only for myself but also for others through ethical means, including regulatory enforcement, public accountability, and legal remedy.</p>
+                        <p>I have endured serious harm and psychological distress as a result of this institution’s actions. Throughout this process, I have acted ethically and in good faith, and I remain committed to holding all responsible parties accountable — through lawful and ethical means — whether their role involved direct misconduct, administrative negligence, or silent complicity. I believe these actions constitute unlawful retaliation against a federally protected student with a documented disability.</p>
+                        <p>California’s nursing students deserve better, and I am committed to helping make that happen.</p>
+                        <p>Thank you for your support, your attention, and your belief in accountability.</p>
+                        <p>The fight for truth is not easy — but it is necessary. And I will continue forward, not in anger, but in conviction.</p>
+                        <p>This is not just my story. It’s part of a larger one. And it’s far from over.</p>
+                        <p>Stay tuned.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="button-group">
+                <button onclick="toggleActive(this); toggleLegal()" class="fuerst-button max-w-xs mx-auto w-full" style="width: 200px;">Alleged Violations</button>
+                <div id="legalSection" class="fuerst-section" style="display: none; text-align: center;">
+                    <h2 style="text-align: center; font-weight: bold; font-size: 1.2rem; color: #aa0000; margin-bottom: 20px;">Alleged Violations</h2>
+                    <ul style="display: inline-block; text-align: left; line-height: 1.7; padding-left: 20px; margin: 0 auto;">
+                        <li style="margin-bottom: 20px;"><strong>Possible ADA Violations (42 U.S.C. § 12101 et seq.):</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          Delay of reasonable accommodations for documented mental health conditions (e.g., GAD), alleged coercion during meetings, and potential retaliation via exclusion from education access. </p>
+                        </li>
+                        <li style="margin-bottom: 20px;"><strong>Potential FERPA Breaches (20 U.S.C. § 1232g; 34 CFR Part 99):</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          Failure to provide timely and complete access to educational records as required under 34 CFR § 99.10, including full transcript and enrollment data. </p>
+                        </li>
+                        <li style="margin-bottom: 20px;"><strong>Possible Title IX Concerns (20 U.S.C. § 1681):</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          Alleged retaliation after protected complaints, failure to address reports of sex/gender-based inequity, and potential noncompliance with coordinator role designation requirements. </p>
+                        </li>
+                        <li style="margin-bottom: 20px;"><strong>Alleged Unauthorized Legal Practice (UPL):</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          Cole Schlabach and Andrew Nydegger are named in contexts where legal authority was exercised in California without clear evidence of CA licensure. This may violate CA BPC §§ 6125–6126. </p>
+                        </li>
+                        <li style="margin-bottom: 20px;"><strong>Possible Defamation and Retaliatory Smear Campaign:</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          Harmful narratives appear to have been constructed or circulated internally to discredit the reporting student, possibly in retaliation for lawful disclosures. </p>
+                        </li>
+                        <li style="margin-bottom: 20px;"><strong>Allged Institutional Stonewalling and Liability:</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          SEC has ignored lawful requests such as transcript access, potentially violating FERPA, ADA, and other obligations — exposing the institution to federal liability. </p>
+                        </li>
+                        <li style="margin-bottom: 20px;"><strong>Potential Whistleblower Suppression (alleged):</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          Patterns suggest internal obstruction and silencing of protected disclosures involving academic misconduct and faculty retaliation. </p>
+                        </li>
+                        <li style="margin-bottom: 20px;"><strong>Alleged Alleged Encouragement of Academic Fraud in Clinical Placement:</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          A coordinator allegedly encouraged group cheating on Prime Healthcare’s entrance exam. This was reported to SEC leadership, Prime, and regulators — with no response. </p>
+                        </li>
+                        <li style="margin-bottom: 20px;"><strong>Possible Emerging Indicators of Systemic Fraud (FCA / RICO):</strong>
+                            <br>
+                            <p style="margin: 8px 0 0 0;">
+          Patterns involving Title IV mismanagement, falsified reporting, and real estate-linked LLCs may suggest enterprise-level misconduct. </p>
+                        </li>
+                    </ul>
+                    <p style="margin-top: 24px; font-style: italic;">
+      All allegations are supported by first-person testimony, documentation, and time-stamped records. This platform makes no criminal assertions and calls for independent investigation. </p>
+                </div>
+            </div>
+            <div class="button-group">
+                <button onclick="toggleActive(this); togglePeople()" class="fuerst-button max-w-xs mx-auto w-full" style="width: 200px;">People Involved</button>
+                <div id="peopleList" class="fuerst-section" style="display: none;">
+                    <h2 style="text-align: center; font-weight: bold; font-size: 1.2rem; color: #aa0000; margin-bottom: 20px;">People Involved</h2>
+                    <li>
+                        <strong>Bobby Carter</strong> – Faculty witness to post-meeting distress. Appeared genuinely concerned. One of the few educators who treated students with dignity and respect.
+                    </li><br>
+                    <li>
+                        <strong>Bola Gyras</strong> – Biochemistry professor. When I raised curriculum concerns earlier in the program, he replied, “Maybe you don’t belong here.” A moment that revealed the gatekeeping mindset beneath the surface.
+                    </li><br> 
+                    <li>
+                        <strong>Johnny Brown</strong> – Admissions Specialist. Involved in recruiting students at SEC. Based on my experience, some admissions decisions may have prioritized enrollment numbers over true readiness. Allegedly connected to internal practices where transcript or recommendation requirements are possibly delayed during enrollment—then giving the appearance of clearance, only for those same requirements to later be used to undermine student progress or justify dismissal. People should be either cleared before they start the program or they are not, how does this happen?
+                    </li><br>
+                    <li>
+                        <strong>Sylvia Villegas</strong> – Informed me, a year and a half into the program, that two years of my transcripts were missing. How does that happen if I had supposedly already been cleared for enrollment? I had previously heard from other students that letters of recommendation were sometimes delayed until after acceptance — a practice that seems highly irregular. In my view, applicants should either be cleared up front or not at all — anything else risks administrative manipulation. I was told the missing transcript was now a graduation requirement — but this came only after I had filed formal complaints with the school and regulators. To me, it felt like a form of retroactive weaponization, designed to justify removing me. The timing and pattern suggest possible retaliation. I remain curious: who directed Ms. Villegas to revisit my admissions file during such a turbulent period?
+                    </li><br>
+                    <li>
+                        <strong>Lilliana Bovaird</strong> – In my view, participated in passive retaliation, including the strategic use of clinical “sign-offs” — where certain students appeared to be prioritized or deprioritized for skill check-offs. When you don’t get signed off, it snowballs — and in my case, it did. I endured nearly three weeks of delayed skills assessments, despite raising concerns that my section had only one professor while others had two. I also believe I should have passed Pharmacology the first time, but was required to retake it — a decision I view as punitive, handed down by SEC corporate and MFSON administrators after I raised formal complaints. My concerns about outdated Pharmacology materials and the professor’s struggle with basic technology were never meaningfully addressed. To me, the entire situation felt orchestrated — a setup meant to delay or derail my progress.
+                    </li><br>
+                    <li>
+                        <strong>Cole Schlabach</strong> – General Counsel. Allegedly not licensed in California—yet actively shaped legal decisions. Named in allegations of stonewalling and silencing students.
+                    </li><br>
+                    <li>
+                        <strong>Andrew Nydegger</strong> – Regional Director of Operations, MFSON. Utah-based attorney reportedly involved in California disciplinary decisions—raising possible multi-state UPL concerns.
+                    </li><br>
+                    <li>
+                        <strong>Gia Oliphant</strong> – Nursing Resource Specialist. Present during the coercive July 7 meeting. May still have a conscience—but silence helps keep the story straight. Her voice could still matter.
+                    </li><br>
+                    <li>
+                        <strong>Juana Ferrerosa</strong> – Campus Dean, MFSON Riverside, the individual responsible for summoning me to a three-hour short notice meeting despite me trying to reach out to her and the clinical coordinator for three to four days prior with no response. Many alleged instances of retaliation over my time at MFSON Riverside. Known for closed doors and unanswered emails. Allegedly disrupted students both emotionally and logistically before major exams — now named in formal complaints. Appears increasingly out of her depth.
+                    </li>
+                </li><br>
+                <li>
+                    <strong>Jasmin Salazar</strong> – Clinical Coordinator. Initiated the July 7 ambush. Ignored my request for a neutral space. Forced me into a setting I had concerns about, and those concerns turned out to be true unfortunately.
+                </li><br>
+                <li>
+                    <strong>Tammy Latu</strong> – At the center of ADA retaliation and coerive pre-planned event on July 7th, 2025. She has acted as though institutional rules don’t apply to her — a recurring theme among administrators at SEC. On earlier ocassions during my time in the ADN program she stalled my original ADA request despite my diagnosis being somewhat recent and having been cleared by the records department of my hospital with clearance from my psychiatrist at the time. Forced undue effort to go get a note written in the way she wanted it. Also during a closed door meeting earlier in the program she allegedly said, “You don’t have a leg to stand on. If we wanted you gone, you’d be gone.” This was reactionary to me bringing up Title IX Concerns, something that wasn't acknowledged by their multi-state Title IX COordinator until many months later. On another occassion closer to the time of the coercive event of July 7th, 2025, she Later deleted a message she had sent me denying me a neutral witness during a meeting with corporate. When records vanish, what’s being hidden? Investigators should check the meta data.
+                </li><br>
+                <li>
+                    <strong>Edward Beauchamp</strong> – Chief Nursing Officer. Played a role in my dismissal? Silent ever since. Out of his depth—or out of answers?
+                </li><br>
+                <li>
+                    <strong>Serjik Kesachekian</strong> – Approved my dismissal and Title IX complaints. Then vanished. Allegedly the sole Title IX Coordinator across multiple campuses—an arrangement that raises serious compliance flags.
+                </li><br>
+                <li>
+                    <strong>Gloria Blatti</strong> – Head Dean of MFSON. Oversaw the institution’s silence. The shield—or the enabler?
+                </li><br>
+                <li>
+                    <strong>Lisa Fuerst</strong> – Silent strategist behind SEC operations and real estate. Rarely visible—never absent. When the lights come on, will her deals survive scrutiny?
+                </li><br>
+                <li>
+                    <strong>Mitchell Fuerst</strong> – CEO and architect of SEC. He made the calls. He set the tone. He hands down the demands. The sycophants deliver. Probably thought he was untouchable — until now. Built an empire with shaky ethical foundations — now facing the tide of public accountability. The opening of Pandora’s Box, one could say.
+                </li>
+                <li>
+                    <strong>SEC</strong> – The SEC leadership, administrative, and faculty collective... a case study in public disservice.
+                </li>
+            </div>
+            <!-- ⚖️ Legal -->
+            <div id="legalSection" class="fuerst-section">
+                <p><strong>Potential Legal Violations:</strong></p>
+                <div style="margin-bottom: 18px;">
+                    <strong>Possible ADA Violations (42 U.S.C. § 12101 et seq.):</strong> Delay of reasonable accommodations for documented mental health conditions (e.g., GAD), alleged coercion during meetings, and potential retaliation via exclusion from education access.
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Potential FERPA Breaches (20 U.S.C. § 1232g; 34 CFR Part 99):</strong> Failure to provide timely and complete access to educational records as required under 34 CFR § 99.10, including full transcript and enrollment data.
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Title IX Concerns (20 U.S.C. § 1681):</strong> Alleged retaliation after protected complaints, failure to address reports of sex/gender-based inequity, and potential noncompliance with coordinator role designation requirements.
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Unauthorized Legal Practice Concerns (UPL):</strong> SEC administrative figures—Cole Schlabach and Andrew Nydegger—appear to have exercised legal authority in California disciplinary and Title IX matters. Neither individual is listed as a licensed attorney with the California State Bar. This raises concerns of potential unauthorized practice of law (UPL) under CA BPC §§6125–6126.
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Potential Defamation and Retaliatory Smear Campaign:</strong> Evidence suggests that harmful narratives may have been constructed or circulated internally with the intent to discredit or isolate the reporting student, possibly in retaliation for lawful disclosures and protected activity.
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Institutional Stonewalling and Potential Liability:</strong> SEC has adopted a sustained pattern of administrative silence, including the failure to respond to multiple lawful and respectful requests—such as basic transcript access—despite clear FERPA and ADA obligations. As of this writing, SEC remains noncompliant on a range of issues that may expose the institution to legal liability in federal court under applicable education and civil rights statutes.
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Whistleblower Suppression (alleged):</strong> Patterns suggest possible efforts to silence protected reports involving academic misconduct, faculty retaliation, and internal obstruction of access to lawful grievance pathways.
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Alleged Encouragement of Academic Fraud in Clinical Placement:</strong> A clinical coordinator reportedly encouraged group cheating on the Prime Healthcare Clinical Entrance Exam. This concern was formally reported to SEC corporate leadership, Prime Healthcare, and multiple regulators. To date, no acknowledgment has been received. The issue raises serious implications of falsified clinical readiness records, which could lead to compromised patient care and institutional liability.
+                </div>
+                <div style="margin-bottom: 18px;">
+                    <strong>Emerging Indicators of Systemic Fraud (FCA / RICO):</strong> Unverified but concerning patterns involving Title IV disbursement practices, demographic misreporting, and use of layered LLC structures that may obscure financial responsibility.
+                </div>
+                <p>All allegations are based on first-person accounts, supporting documentation, and time-stamped records. This platform does not assert criminal liability and encourages independent review by appropriate regulatory, legal, and journalistic bodies.</p>
+            </div>
+        </div>
+        <div class="button-group">
+            <!-- Main Button -->
+            <button onclick="toggleRegulators()" id="regulatorsBtn" class="fuerst-button max-w-xs mx-auto w-full" style="width: 200px;">
+                Regulator Status
+</button>
+            <!-- Hidden Content Area -->
+            <div id="regulatorsSection" class="fuerst-section" style="display: none; text-align: left; padding: 20px; line-height: 1.6;">
+                <!-- Description -->
+                <p style="text-align: center; font-weight: bold; font-size: 1.2rem; color: #aa0000;">Regulator Status:</p>
+                <p>Multiple open regulatory cases, brief contact history, acknowledgement delays, and apparent inaction by BPPE, BRN, ABHES, and DOE.</p>
+                <!-- Sub-buttons with even spacing -->
+                <div class="button-group" style="display: flex; flex-direction: column; align-items: center; gap: 16px; margin: 20px 0;">
+                    <button onclick="toggleActive(this); toggleOpenLetter()" id="openLetterBtn" class="fuerst-button max-w-xs mx-auto w-full" style="width: 200px;">View Open Letter</button>
+                    <div id="openLetterSection" style="display: none; max-width: 720px; width: 100%; padding: 24px; font-family: 'EB Garamond', serif; font-size: 0.8rem; box-sizing: border-box; text-align: left; word-wrap: break-word; overflow-wrap: break-word; line-height: 1.6; background-color: #f5ead7; border-left: 2px solid #a00; border-right: 2px solid #a00;">
+                        <h1 style="text-align: center; font-size: 1.6rem;">OPEN LETTER TO REGULATORS</h1>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <p style="text-align: center;"><strong>Published: July 31, 2025</strong></p>
+                        <p style="text-align: center;"><em>To the BPPE, BRN, DCA, ABHES — and the public they are meant to protect</em></p>
+                        <p>For months, I asked your agencies for help.<br>
+    I submitted formal complaints.<br>
+    I documented retaliation.<br>
+    I was ambushed in a clinical meeting, denied reasonable accommodations, coerced to sign paperwork under pressure, and then expelled — all under a provable false narrative — after raising concerns about academic dishonesty, unsafe clinical practices, and administrative misconduct.</p>
+                        <p>I asked for my records. I was ignored.<br>
+    I asked for accountability. I was punished.<br>
+    I submitted whistleblower reports to the Board of Registered Nursing (BRN) — including serious patient safety and retaliation concerns — and never received so much as a confirmation of receipt, despite multiple follow-ups.</p>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <h2 style="text-align: center;">What I’ve Uncovered</h2>
+                        <ul style="font-size: 0.85rem; padding-left: 20px; margin-left: 0; text-align: left;">
+                            <li>Systemic noncompliance</li>
+                            <li>Coercive administrative conduct</li>
+                            <li>Retaliation and defamation</li>
+                            <li>A pattern of concealment and regulatory evasion</li>
+                        </ul>
+                        <p>These are not isolated incidents — they appear linked, recurring, and deeply embedded. The patterns I’ve uncovered raise red flags of enterprise-level misconduct that may warrant scrutiny under the False Claims Act, civil RICO, or both — particularly where federal student aid, regulatory deception, and self-enrichment via real estate manipulation are involved.</p>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <h2 style="text-align: center;">Real Estate Schemes Masquerading as Campuses</h2>
+                        <p>Several SEC campuses operate out of buildings owned or controlled by LLCs linked to Mitchell Fuerst, including:</p>
+                        <ul style="font-size: 0.85rem; padding-left: 20px; margin-left: 0; text-align: left;">
+                            <li>Casa De Cortez Appartments, LLC</li>
+                            <li>Casa De Cortez, LLC</li>
+                            <li>Echad Holdings, LLC</li>
+                            <li>Fuerst Investment, LLC</li>
+                            <li>FuerstAsset_LLC_2007_MitchellOwned_</li>
+                            <li>FuerstCollective_LLC_2021_MitchellOwned_</li>
+                            <li>PlanD_Shell_Entity_Suspended_2012_</li>
+                            <li>Success Anaheim, LLC</li>
+                            <li>Success Bakersfield, LLC</li>
+                            <li>Success Costa Mesa, LLC</li>
+                            <li>Success DC LLC</li>
+                            <li>Success Pomona, LLC</li>
+                            <li>Success Riverside, LLC</li>
+                            <li>Success San Diego, LLC</li>
+                            <li>Success Van Nuys Lisa, LLC</li>
+                            <li>Success Van Nuys Mitchell, LLC</li>
+                            <li>Success West Covina, LLC</li>
+                        </ul>
+                        <p>In multiple cases, these properties were approved as campuses shortly after suspicious valuation spikes — in one case, nearly doubling in a year. This raises an obvious question:</p>
+                        <p style="text-align: center;"><em>Are regulators accrediting schools, or enabling real estate scams?</em></p>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <h2 style="text-align: center;">Disclosures Silenced and Rerouted</h2>
+                        <p>Success Education Colleges (SEC) has outsourced its whistleblower and compliance infrastructure through a rotating sequence of third-party vendors — including Lighthouse Services, Syntrio, and now Mitratech. What should function as an ethical reporting channel instead resembles a shell game, where serious concerns disappear into a closed loop of corporate containment.</p>
+                        <p>These systems appear engineered not to protect whistleblowers, but to protect the institution from them — rerouting complaints away from regulators and into legal silos controlled by internal actors.</p>
+                        <p><em>In other words: SEC didn’t build a whistleblower system. It built a firewall.</em></p>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <h2 style="text-align: center;">Legal Roles, No Legal Licenses</h2>
+                        <p>Two individuals — Cole Schlabach and Andrew Nydegger — appear to have acted in legal capacities during my expulsion, Title IX concerns, and record requests. Yet neither is licensed to practice law in California, nor do they appear as Registered In-House Counsel.</p>
+                        <p>If true, this may constitute unauthorized practice of law (UPL).</p>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <h2 style="text-align: center;">No Malpractice Insurance — And No Explanation</h2>
+                        <p>As of today, no public record exists showing that SEC or MFSON carry institutional malpractice insurance. The BPPE and BVNPT have both acknowledged in writing that they hold no records of such insurance.</p>
+                        <p><strong>Students were placed in live clinical environments with no publicly verifiable institutional coverage.</strong></p>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <h2 style="text-align: center;">Where Are My Records?</h2>
+                        <p>To this day, SEC refuses to release my full, unaltered transcript, trapping me in academic limbo — unable to transfer, recover, or rebuild the career I was promised.</p>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <h2 style="text-align: center;">I Was Not Just a Student</h2>
+                        <p>This institution wasted over 18 months of my life. They now think offering a quiet refund will erase that harm. It won’t.</p>
+                        <ul style="font-size: 0.85rem; padding-left: 20px; margin-left: 0; text-align: left;">
+                            <li>A refund does not undo retaliation.</li>
+                            <li>A refund does not reverse trauma.</li>
+                            <li>A refund does not restore a future built in good faith.</li>
+                        </ul>
+                        <hr style="border: none; border-top: 1px solid #a00; margin: 32px 0;"/>
+                        <h2 style="text-align: center;">Formal Demands</h2>
+                        <p>In light of the documented retaliation, regulatory violations, and institutional misconduct, I now call for the following actions:</p>
+                        <ul style="font-size: 0.85rem; padding-left: 20px; margin-left: 0; text-align: left;">
+                            <li>A multi-agency investigation into SEC and its affiliates — including Title IV disbursement and real estate-linked approvals</li>
+                            <li>A review of my expulsion and potential degree conferment</li>
+                            <li>Enforcement of:
+                                <ul style="font-size: 0.85rem; padding-left: 20px; margin-left: 0; text-align: left;">
+                                    <li>FERPA (unaltered record access)</li>
+                                    <li>ADA (timely accommodations)</li>
+                                    <li>Institutional insurance disclosure</li>
+                                </ul>
+                            </li>
+                            <li>A legal guarantee that my academic records will not be altered or obstructed</li>
+                            <li>A review of public agency accountability and failure to act</li>
+                        </ul>
+                        <h2 style="text-align: center;">If Agencies Remain Silent — the Public Will Speak</h2>
+                        <p>Let this message serve as public notice:</p>
+                        <ul style="font-size: 0.85rem; padding-left: 20px; margin-left: 0; text-align: left;">
+                            <li>BPPE</li>
+                            <li>BRN</li>
+                            <li>DCA</li>
+                            <li>ABHES</li>
+                        </ul>
+                        <p>And, if necessary, the names of responsible officials will be published in the public interest.</p>
+                        <h2 style="text-align: center;">California Nursing Students Deserve Better</h2>
+                        <p>We don’t need another slogan.<br>
+    We need protection.<br>
+    We need justice.<br>
+    We need truth in regulation — or we will go find it ourselves.</p>
+                        <div style="text-align: left; margin-top: 24px;">
+                            <p><strong>Respectfully,</strong><br>
+  Gene Santina<br>
+  Former Student – Marsha Fuerst School of Nursing, Riverside<br>
+  Whistleblower of Record | Investigative Journalist<br> <a href="mailto:legal@fuerstfiles.com">legal@fuerstfiles.com</a><br> <a href="https://FuerstFiles.com" target="_blank">https://FuerstFiles.com</a></p>
+                        </div>
+                    </div>
+                    <button onclick="toggleActive(this); toggleRegDetail()" id="regDetailBtn" class="fuerst-button max-w-xs mx-auto w-full" style="width: 200px;">Regulator Details</button>
+                </div>
+                <!-- Open Letter Section -->
+                <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+</div>
+                <!-- Regulator Details Section -->
+                <div id="regDetailSection" style="display: none;">
+                    <p><strong>Regulator Status:</strong> Multiple open regulatory cases, brief contact history, acknowledgement delays, and apparent inaction by BPPE, BRN, ABHES, and DOE. (Live tracker pending)</p>
+                    <h4>California Board of Registered Nursing – Key Leadership (As of August 2025):</h4>
+                    <div class="regulator-list">
+                        <p><strong>California Board of Registered Nursing – Key Leadership (As of August 2025):</strong></p>
+                        <ul>
+                            <li>Loretta Melby, RN, MSN – Executive Officer<br>
+                                (<a href="mailto:Loretta.Melby@dca.ca.gov">Loretta.Melby@dca.ca.gov</a>)
+                            </li>
+                            <li>Evon Lenerd Tapps, MBA – Assistant Executive Officer<br>
+                                (<a href="mailto:Evon.Lenerd@dca.ca.gov">Evon.Lenerd@dca.ca.gov</a>)
+                            </li>
+                            <li>Marissa Clark – Chief of Legislation<br>
+                                (<a href="mailto:Marissa.Clark@dca.ca.gov">Marissa.Clark@dca.ca.gov</a>)
+                            </li>
+                            <li>McCaulie Feusahrens – Chief of Licensing<br>
+                                (<a href="mailto:McCaulie.Feusahrens@dca.ca.gov">McCaulie.Feusahrens@dca.ca.gov</a>)
+                            </li>
+                        </ul>
+                    </div>
+                    <p>These individuals currently oversee the BRN’s licensing, education oversight, and public protection operations. Despite documented Title IX retaliation, ADA interference, and reports of misconduct at a BRN-approved institution, no corrective action has yet been publicly acknowledged. Multiple outreach attempts — including whistleblower disclosures on June 19 and 20, 2025 — went unanswered, even after repeated requests for confirmation. The silence speaks volumes.</p>
+                    <p>More troublingly, an SEC administrator once remarked: “We have a good relationship with the BRN.” This may be benign — or it may suggest a concerning level of familiarity. Even the appearance of undue influence can erode public trust.</p>
+                    <h4>California Bureau for Private Postsecondary Education (BPPE) – Leadership (As of August 2025):</h4>
+                    <div class="regulator-list">
+                        <ul>
+                            <li>
+                                Deborah Cochrane – Bureau Chief<br>
+                                (<a href="mailto:Deborah.Cochrane@dca.ca.gov">Deborah.Cochrane@dca.ca.gov</a>)
+                            </li>
+                        </ul>
+                    </div>
+                    <p>Despite multiple whistleblower disclosures submitted in June 2025, the BPPE has not publicly indicated any enforcement steps. Of further concern, both the BPPE and BVNPT confirmed in writing that they hold <strong>no records of malpractice or institutional liability insurance</strong> for Marsha Fuerst School of Nursing – Riverside or any SEC-operated campuses. Given that students were placed in clinical settings under state-approved programs, this absence may represent a serious oversight — and potentially a public risk.</p>
+                    <h4>California Board of Vocational Nursing and Psychiatric Technicians (BVNPT) – Key Members:</h4>
+                    <div class="regulator-list">
+                        <ul>
+                            <li>Carel Mountain, LVN – President</li>
+                            <li>Abraham Hill, PT – Vice President</li>
+                        </ul>
+                    </div>
+                    <p>Like the BPPE, the BVNPT has confirmed it holds no malpractice or liability insurance records for SEC campuses. If these programs operated without such safeguards in place, it raises critical questions about patient safety and regulatory responsibility.</p>
+                    <h4>ABHES – Accrediting Bureau of Health Education Schools:</h4>
+                    <div class="regulator-list">
+                        <ul>
+                            <li>Timothy Lee – Chair, Board of Commissioners</li>
+                            <li>Mark Andrews – Public Member (Genentech, Inc.)</li>
+                            <li>Dr. Bob Paxton – Secretary, Higher Education Specialist</li>
+                        </ul>
+                    </div>
+                    <p>ABHES has received reports of systemic misconduct and accreditation-related concerns at an institution under its purview. To date, no formal response has been made public. For accrediting bodies to retain trust, both transparency and timely response are essential.</p>
+                    <h4>California Department of Consumer Affairs (DCA):</h4>
+                    <div class="regulator-list">
+                        <ul>
+                            <li>Kimberly Kirchmeyer – Director (<a href="mailto:Kimberly.Kirchmeyer@dca.ca.gov">Kimberly.Kirchmeyer@dca.ca.gov</a>)
+                            </li>
+                            <li>Christine Lally – Chief Deputy Director (<a href="mailto:Christine.Lally@dca.ca.gov">Christine.Lally@dca.ca.gov</a>)
+                            </li>
+                            <li>Ryan Marcroft – Deputy Director, Legal Affairs (<a href="mailto:Ryan.Marcroft@dca.ca.gov">Ryan.Marcroft@dca.ca.gov</a>)
+                            </li>
+                        </ul>
+                    </div>
+                    <p>The DCA oversees both the BRN and BPPE. Despite documented harm, Title IX and ADA concerns, and a consistent lack of agency response, DCA has taken no visible action. This raises concerns about systemic inertia at the very top of California’s regulatory apparatus.</p>
+                    <h4>Wider Oversight and Federal Awareness:</h4>
+                    <p>Outreach has also begun to federal and state-level watchdogs — including the U.S. Department of Education, Office for Civil Rights (OCR), Office of Inspector General (OIG), and the California Attorney General’s Office. These agencies are not listed to suggest fault, but to reflect the growing scope of concern and the hope that intervention may still come.</p>
+                    <p><em>Reasonable observers may begin to ask:</em></p>
+                    <ul>
+                        <li>Do regulatory agencies maintain true independence from those they oversee?</li>
+                        <li>Could institutional lobbying or financial ties discourage enforcement?</li>
+                        <li>Have the lines between oversight and complicity been blurred?</li>
+                    </ul>
+                    <div style="text-align: center; font-family: 'Special Elite', monospace; font-size: 0.85rem; line-height: 1.6; margin-top: 24px; margin-bottom: 24px;">
+                        <p><strong>Disclaimer (As of August 2025)</strong></p>
+                        <p><strong>
+    The agencies, institutions, and individuals named on this page are listed solely to reflect their publicly stated roles and responsibilities as of August 2025. Their inclusion does not imply personal wrongdoing or legal fault unless otherwise determined by a court of law or formal investigative body. </strong></p>
+                        <p><strong>
+    All information presented here is based on documented outreach, whistleblower submissions, and publicly available records. This content is intended for transparency, accountability, and lawful public interest reporting. Agencies or individuals will be updated or removed as corrective action, clarification, or formal engagement is confirmed. </strong></p>
+                    </div>
+                    <p style="max-width: 600px; margin: 2em auto 0 auto; line-height: 1.6; font-size: 0.9em; color: #111; font-family: 'Special Elite', monospace; text-align: center; font-weight: bold;"> <em>Agencies will be removed from this page once they begin fulfilling their oversight responsibilities in good faith.</em></p>
+                </div>
+            </div>
+        </div>
+        <div class="button-group">
+            <button onclick="toggleActive(this); toggleDocs()" class="fuerst-button max-w-xs mx-auto w-full" style="width: 200px;">Reveal Documents</button>
+        </div>
+        <!-- 📂 Reveal Documents Section -->
+        <div id="docSection" class="fuerst-section" style="display: none;">
+            <p class="fuerst-section-title">Document Repository:</p>
+            <p>Below are links to real estate filings, emails, and compliance evidence tied to SEC operations.</p>
+            <!-- ✅ Each button wraps its own content for correct positioning -->
+            <div class="button-group">
+                <div>
+                    <button class="fuerst-button max-w-xs mx-auto w-full" onclick="toggleEvidence('realEstate', this)">Real Estate</button>
+                    <div id="realEstate" class="evidence-content" style="display: none;">
+                        <p><strong>Real Estate Evidence:</strong></p>
+                        <ul>
+                            <li>
+                                <strong>Big Developments Coming Soon...</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <button class="fuerst-button max-w-xs mx-auto w-full" onclick="toggleEvidence('llcs', this)">LLC Records</button>
+                    <div id="llcs" class="evidence-content" style="display: none;">
+                        <!-- Keep your full LLC list here -->
+                        <p><strong>Fuerst Investment, LLC (Terminated)</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1RW7kCiANdf1Fk1WVKRncR_0a6QYwjjRc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success Riverside, LLC</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/14uqJiMowUFfKP1ILV8KYJ82iWIoBn_tC/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Plan D Properties, LLC</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1TPJvCabP9bSTj9AJanV_aWhCqs0Epxnk/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Fuerst Collective, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1E55hQ3WgSDugK_dXKlZ9CDIWINoKyMpC/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Fuerst Asset Management, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/12sTHljfeYayCgmBNJy4wEBzDhxbOVFDM/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success West Covina, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/10nSdhnuDFTQzBhZXXauf9h96SSUYBwbR/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success Anaheim, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1AB-oNOHUVFjggHTMK7qDDxzPOKG9nitm/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Etched Holdings, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/16Zh8Zh2Nmwf-stgmATyacZvSs_Oemqtt/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Una Holdings, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1CviKTFzpX3z-s8fwY0QoE-DmEnY7Yxt3/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success Pomona, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1Oto4TyB3q2bcpB9Hi6D1vmWCZrqAULv9/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success Bakersfield, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/12bmpj1qStgXZc7giB0pc8QBmy_040zTc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success San Diego, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1g4sHo2rQFXOruznvI8b-Hua0tVqDPdxx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success Costa Mesa, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1Y2Nm5Aax8e-Ze_vheb_wvbJuRaYA8bsf/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success DC, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1Z1QwQ0vw7adJL1GFYk97yMtxp8nU9xln/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Success Van Nuys Lisa, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1t_tGR5kWWx2ZA9ah8Veawm05TmMzMSUK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Casa De Cortez, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1yAmDUs3tOsdL4wyrptyWBARNr-tfw8Pc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Casa De Cortez, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1iF0SbvPRswSkKP46bnZBb7BC6ZWC8dhe/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Fuerst Investment, LLC </strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1RW7kCiANdf1Fk1WVKRncR_0a6QYwjjRc/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <button class="fuerst-button max-w-xs mx-auto w-full" onclick="toggleEvidence('adminActions', this)">Admin Records</button>
+                    <div id="adminActions" class="evidence-content" style="display: none;">
+                        <p><strong>July 7, 2025 – “Sign or Be Dropped” Ultimatum Email
+At 11:01 AM, Dean Juana Ferrerosa sent this final warning demanding the student sign clinical paperwork by 2:00 PM “or risk clinical standing.” Despite the student reaching out for days prior to plan a time with adminstration which was completely ignored until the day of the short notice threat from Dr. Ferrerosa. The student's 1:29 PM reply shows compliance and intent to report retaliation. This message thread captures the pressure leading into the ambush meeting later that day.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1sOAgOZmX0fK9-gcDWDLEvtKkwSXuWWPq/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+      [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>On July 7th, I received a campus ban email sent late at night—hours after a surprise 2:00 PM meeting. I did not see the message until I arrived at school the next morning, making the ban effectively preemptive and unannounced.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/11Wh1dRV1mjUUr6f5QhwLjzumV8VXhML7/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+      [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>July 10, 2025 – Formal Dismissal Issued by Edward Beauchamp. Letter cites July 7 meeting but omits ADA denial, coercion, and prior formal complaints.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1dqqbMq5PyC-E7aDEX9gZfBgscjqY_l1d/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+      [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>July 24, 2025 – Appeal of July 10 Dismissal Denied by Andrew Nydegger and SEC Appeals Committee. Original dismissal issued by Edward Beauchamp, who may not be authorized to issue legal determinations under California law, raising serious questions of UPL and legal invalidity.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1UwosArf9NqV8UQXlUpCFx0gdXIPxDsHD/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+      [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Brevo Mass Email to SEC Staff (part I) - Notifying them of unsecured data visible to all MFSON Students using Brevo (Important Statistical Evidence Included)</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1gF2NIQbwV_9qzI1HMDQzti7y3LmMMVse/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+      [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Brevo Mass Email to SEC Staff (part II) - Notifying them of unsecured data using Brevo (Important Statistical Evidence Included)</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1DeAtNjHXbeT2OQzGMyqGrnY_JkuZlZst/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+      [View Evidence] </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <button class="fuerst-button max-w-xs mx-auto w-full" onclick="toggleEvidence('whistleblower', this)">Whistleblower</button>
+                    <div id="whistleblower" class="evidence-content" style="display: none;">
+                        <p><strong>Clinical Coordinator Encourages Group Cheating on Prime Healthcare Clinical Entrance Exam:</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1kKUl_BtTcDc9SPToZsj-iVqvKbq2-d4D/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Exposed: Central Admissions Structure Visible to all MFSON student accounts.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1spjRBE32WRaLklUH3oonoLQP1DKCgtEZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Exposed: Allied Health Reports - Corporate Structure Visible to all MFSON student accounts.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1nqfV8qJKJhyO3oKEBq3uN2WY8y3vMN4j/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Exposed: Allied Health Reports II - Corporate Structure Visible to all MFSON student accounts.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1zy9FqdoqRIdYpABYliowtQbx9yPVBClX/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Exposed: Admissions Calendar - Corporate Structure Visible to all MFSON student accounts.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1Fb94Trf31OE1X-oeQvX4ygQt7ms2E9R0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Exposed: DMS Riverside - Corporate Structure Visible to all MFSON student accounts.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1ENtsaDPw9gtRCjH-F6y43AJv4n_7YVCt/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Exposed: NERS - Corporate Structure Visible to all MFSON student accounts.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1gKlF1rp5oU-7BQyhTtCZMye1kKhLBA4m/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Exposed: BNW - Corporate Structure Visible to all MFSON student accounts.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1ip1tnRPf7k2-Te3EGqgBCGfeEpYQxjOJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Exposed: Simulation Scenarios - Corporate Structure Visible to all MFSON student accounts.</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/12hQPUyTDBC2MMVPgcK7d1bBEltGzv6AC/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>IPEDS Enrollment Data – Something Doesn’t Add Up</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/1RuWv34zVI-ZIJ6GXZXMnF4C5xAUll8pO/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Where Did These 317 Alaskan Students Come From? - “Excerpt from IPEDS Help Desk response – full message on file”</strong></p>
+                        <ul>
+                            <li><a href="https://drive.google.com/file/d/12hQPUyTDBC2MMVPgcK7d1bBEltGzv6AC/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                        <p><strong>Newbridge Collapse: How 57 Students Were Left With Nothing</strong></p>
+                        <ul>
+                            <li><a href="https://www.ocregister.com/2013/10/25/students-left-hanging-despite-trade-school-settlement/" target="_blank" rel="noopener noreferrer">
+          [View Evidence] </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 🔘 Grouped Action Buttons -->
+        <div style="text-align: center; margin-top: 20px; display: flex; flex-direction: column; align-items: center; gap: 20px;">
+            <div id="peopleList" class="fuerst-section">
+                <ul style="padding-left: 20px; margin-top: 8px;">
+                    <p style="font-size: 0.9em; color: #555; line-height: 1.5; max-width: 800px; margin-top: 30px;"> <strong>Disclaimer:</strong> The above statements reflect the personal experiences, observations, and opinions of the author. All characterizations are offered in good faith based on direct encounters, documented communications, and the author’s protected rights under <em>Title IX, ADA, FERPA, the First Amendment, and applicable whistleblower statutes</em>. No statement herein is intended to accuse any individual of unlawful conduct unless independently substantiated by regulatory findings or formal legal proceedings. This section is part of a larger whistleblower record and public interest archive. Readers are encouraged to evaluate all content critically and consider the context in which it is presented.</p>
+            </div>
+            <!-- 🔧 Toggle Scripts -->
+            <!DOCTYPE html>
+            <html lang="en">
+                <head>
+                    <meta charset="UTF-8"/>
+                    <title>Toggle Example</title>
+                    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet"/>
+                    <link rel="stylesheet" href="fonts/stylesheet.css">
+                    <style>body { background: #fff8ec; font-family: 'Special Elite', monospace; text-align: center; padding: 40px; } * { box-sizing: border-box; margin: 0; padding: 0; } .open-letter-container { display: none; font-family: 'Special Elite', monospace; font-size: 0.9rem; color: #222; margin: 0 auto; max-width: 720px; text-align: left; padding: 0 24px 40px; } #openLetterSection { display: none; font-family: 'Special Elite', monospace; font-size: 0.9rem; color: #222; max-width: 720px; width: 100%; padding: 0 24px; box-sizing: border-box; text-align: left; margin: 0 auto; word-wrap: break-word; overflow-wrap: break-word; transition: all 0.2s ease-in-out; position: relative;  /* <-- Keeps layout stable */ } .amount-highlight { color: #ffcc00; font-weight: 900; font-size: 1.4em; letter-spacing: 1.2px; line-height: 1.6; text-shadow: 2px 2px 3px #000,
+    0 0 8px #ffcc00,
+    0 0 14px #ffb700,
+    0 0 20px #ff8800; animation: goldPulse 3.2s infinite ease-in-out; } @keyframes goldPulse { 0%, 100% {  text-shadow: 2px 2px 2px #000,
+      0 0 5px #ffcc00,
+      0 0 10px #ffb700,
+      0 0 15px #ff8800; }  50% {  text-shadow: 2px 2px 2px #000,
+      0 0 15px #ffd700,
+      0 0 25px #ffb700,
+      0 0 35px #ff9900; } } .gold-glow { color: #ffc700;  /* brighter gold tone */ font-weight: bold; text-shadow: 1px 1px 1px #000,       /* black outline for readability */
+    0 0 5px #ffc700,
+    0 0 10px #ffaa00,
+    0 0 15px #ff8800; animation: goldPulse 2.5s infinite ease-in-out; } @keyframes goldPulse { 0%, 100% {  text-shadow: 1px 1px 1px #000,
+      0 0 5px #ffc700,
+      0 0 10px #ffaa00,
+      0 0 15px #ff8800; }  50% {  text-shadow: 1px 1px 1px #000,
+      0 0 15px #ffcc33,
+      0 0 30px #ffb700,
+      0 0 40px #ffaa00; } } .slogan-container { text-align: center; font-family: 'Special Elite', monospace; line-height: 1.4; margin-bottom: 16px; } .gold-glow { color: gold; font-weight: bold; text-shadow: 0 0 4px #ffd700, 0 0 8px #ffcc00; animation: pulse 2s infinite; } .glitch { color: #c40000; font-weight: bold; text-shadow: 0 0 3px #ff0000,
+    0 0 6px #ff3333,
+    0 0 10px #ff6666; } animation: glitch 2s infinite; @keyframes pulse { 0%, 100% {  text-shadow: 0 0 4px #ffd700, 0 0 8px #ffcc00; }  50% {  text-shadow: 0 0 8px #ffff00, 0 0 16px #ffcc00; } } @keyframes glitch { 0% {  transform: translateX(0); }  20% {  transform: translateX(-1px); }  40% {  transform: translateX(1.5px); }  60% {  transform: translateX(-0.5px); }  80% {  transform: translateX(1px); }  100% {  transform: translateX(0); } } .centered-heading { text-align: center; } @keyframes glitch-shake { 0%, 100% {  transform: translateX(0); }  10% {  transform: translateX(-2px); }  20% {  transform: translateX(2px); }  30% {  transform: translateX(-3px); }  40% {  transform: translateX(3px); }  50% {  transform: translateX(-2px); }  60% {  transform: translateX(2px); }  70% {  transform: translateX(-1px); }  80% {  transform: translateX(1px); }  90% {  transform: translateX(0); } } .ultimate-glitch { display: inline-block; font-weight: bold; color: #cc0000; text-shadow: 0 0 2px #990000, 0 0 4px #ff0000; animation: glitch-shake 0.7s infinite ease-in-out; } @keyframes rotate-glitch { 0% {  transform: rotate(0deg); }  25% {  transform: rotate(2deg); }  50% {  transform: rotate(0deg); }  75% {  transform: rotate(-2deg); }  100% {  transform: rotate(0deg); } } .pulseglow { animation: pulseglow 2.5s infinite ease-in-out; color: #cc0000; } .glow-pulse { animation: glowPulse 2.5s ease-in-out infinite; text-shadow: 0 0 2px #b30000, 0 0 6px #cc0000, 0 0 10px #ff0000; filter: drop-shadow(0 0 4px #ff0000); } @keyframes pulseglow { 0%, 100% {  text-shadow: 0 0 2px #b30000,
+      0 0 6px #cc0000,
+      0 0 10px #ff1a1a;  transform: scale(1); }  50% {  text-shadow: 0 0 3px #ff1a1a,
+      0 0 8px #ff3333,
+      0 0 14px #ff4d4d;  transform: scale(1.05); } } .accordion { background-color: #cc0000; color: #fff; cursor: pointer; padding: 14px; width: 100%; border: none; text-align: left; font-size: 16px; outline: none; transition: background-color 0.3s ease; margin-top: 10px; } .accordion:hover { background-color: #990000; } .panel { padding: 0 18px; background-color: #fff2f2; display: none; overflow: hidden; border-left: 2px solid #cc0000; border-right: 2px solid #cc0000; border-bottom: 2px solid #cc0000; } #parody-countdown-wrapper { text-align: center; font-family: 'Special Elite', monospace; margin: 20px 0; } #parody-countdown-label { font-size: 1rem; color: #cc0000;  /* Vivid red */ text-shadow: 0 0 2px #ff6666,
+    0 0 4px #ff3333,
+    0 0 6px #ff0000; margin-bottom: 6px; } #parody-countdown-caption { font-size: 0.65rem; color: #888; margin-top: 6px; font-style: italic; transition: opacity 0.5s; } .evidence-section { display: none; margin-top: 20px; padding: 20px; border: 2px dashed #cc0000; background-color: #fff9f9; border-radius: 12px; max-width: 600px; margin-left: auto; margin-right: auto; box-sizing: border-box; } .evidence-content.show { max-height: 800px;  /* or large enough to contain full content */ padding: 14px; } .evidence-content { display: none; padding: 14px; margin-top: 16px; background-color: #fff; border-left: 4px solid #cc0000; border-radius: 6px; font-size: 0.95rem; line-height: 1.6; text-align: left; } .active-btn { background-color: #cc0000; color: white; }
+}</style>
+                </head>
+                <body>
+                    <script>
+
+  function toggleActive(el) {
+    el.classList.toggle('active');
+  }
+  
+function toggleOpenLetter() {
+  const section = document.getElementById('openLetterSection');
+  const button = document.getElementById('openLetterBtn');
+  const isVisible = section.style.display === 'block';
+
+  section.style.display = isVisible ? 'none' : 'block';
+  button.textContent = isVisible ? 'View Open Letter' : 'Hide Open Letter';
+}
+function toggleTestimony() {
+  const section = document.getElementById("testimonySection");
+  const btn = document.getElementById("testimonyBtn");
+  const showing = section.style.display === "block";
+  section.style.display = showing ? "none" : "block";
+  btn.textContent = showing ? "Read My Testimony" : "Hide Testimony";
+}
+
+  function togglePeople() {
+    const list = document.getElementById("peopleList");
+    const btn = document.getElementById("peopleBtn");
+    const showing = list.style.display === "block";
+    list.style.display = showing ? "none" : "block";
+    btn.textContent = showing ? "People Involved" : "Hide People";
+  }
+
+  function toggleLegal() {
+    const list = document.getElementById("legalSection");
+    const btn = document.getElementById("legalBtn");
+    const showing = list.style.display === "block";
+    list.style.display = showing ? "none" : "block";
+    btn.textContent = showing ? "Alleged Violations" : "Hide Alleged Violations";
+  }
+
+function toggleRegulators() {
+  const section = document.getElementById("regulatorsSection");
+  const btn = document.getElementById("regulatorsBtn");
+  const showing = section.style.display === "block";
+
+  section.style.display = showing ? "none" : "block";
+  btn.textContent = showing ? "Regulator Status" : "Hide Status";
+
+  // ✅ Toggle the visual "active" class
+  btn.classList.toggle("active", !showing);
+}
+  
+
+function toggleRegDetail() {
+  const section = document.getElementById("regDetailSection");
+  const btn = document.getElementById("regDetailBtn");
+  const showing = section.style.display === "block";
+
+  section.style.display = showing ? "none" : "block";
+  btn.textContent = showing ? "View Regulator Details" : "Hide Regulator Details";
+
+  // ✅ Add this line to toggle visual style
+  btn.classList.toggle("active", !showing);
+}
+function toggleEvidence(sectionId, btn) {
+  const section = document.getElementById(sectionId);
+  const isVisible = section.style.display === 'block';
+  section.style.display = isVisible ? 'none' : 'block';
+
+  // Update text label
+  const labels = {
+    realEstate: ['Real Estate', 'Hide Real Estate'],
+    llcs: ['LLC Records', 'Hide LLC Records'],
+    adminActions: ['Admin Records', 'Hide Admin Records'],
+    whistleblower: ['Whistleblower', 'Hide Whistleblower']
+  };
+
+  btn.textContent = isVisible ? labels[sectionId][0] : labels[sectionId][1];
+
+  // 🔴 Add the visual effect
+  btn.classList.toggle("active", !isVisible);
+}
+  function toggleDocs() {
+    const docSection = document.getElementById('docSection');
+    const button = document.getElementById('revealBtn');
+    const isVisible = docSection.style.display === 'block';
+    docSection.style.display = isVisible ? 'none' : 'block';
+    button.textContent = isVisible ? 'Reveal Documents' : 'Hide Documents';
+  }
+
+  const maxSeconds = 666;
+  let secondsLeft = maxSeconds;
+
+  const timer = document.getElementById("parody-countdown-timer");
+  const caption = document.getElementById("parody-countdown-caption");
+
+  function updateTimer() {
+    if (secondsLeft <= 0) {
+      secondsLeft = maxSeconds;
+      caption.style.opacity = 1;
+    } else {
+      caption.style.opacity = 0;
+    }
+
+    timer.innerHTML = `${secondsLeft}s`;
+    secondsLeft--;
+  }
+
+  updateTimer();
+  setInterval(updateTimer, 1000);
+  
+  
+</script>
+                </body>
+            </html>
+        </script>
+        <!-- 🔧 Section Styles -->
+        <style>.fuerst-section { display: none; background-color: #fff4f4; border-top: 2px solid #cc0000; padding: 16px; border-radius: 12px; margin-top: 16px; font-family: 'Special Elite', monospace; text-align: left; max-width: 480px; margin-left: auto; margin-right: auto; }</style>
+        <!-- 🔍 LLC Real Estate Ownership Smoking Gun Series -->
+        <div id="docSection" style="display: none; margin-top: 18px; text-align: left; padding: 16px; background: #fff; border: 1px solid #cc0000; border-radius: 8px;">
+            <ul style="list-style-type: none; padding: 0; font-size: 0.95rem; line-height: 1.6;">
+                <li><strong>Email from the Campus Director of Marsha Fuerst School of Nursing – Riverside, sent at 10:48 PM on July 7, 2025, accusing Gene Santina of “threatening and unprofessional” behavior. The message bans the student from all campus and clinical sites without a formal hearing or written explanation, issued late at night with no due process despite the coercive ambush meeting being at 2:30 pm that day. This communication is central to allegations of retaliation, ADA violations, and administrative coercion following a disputed in-person meeting earlier that day. <br> <a href="https://drive.google.com/file/d/1ybLmz9aQ_FN1j1SW0rFPa-NnEih-vjBM/view?usp=drive_link" target="_blank">View Screenshot</a>  
+                </li>
+                <br>
+                <li><strong>Unrestricted Access to SEC Nursing Leadership – “MFSON Deans” Group</strong>
+                    <br>
+                    Screenshot of internal Microsoft Teams group titled <em>“MFSON Deans”</em> reveals unrestricted access to a full list of nursing leadership—including multiple Deans of Nursing, the Executive Dean, and Regional Director of Operations. This group was viewable by ordinary users, including students. Despite my reports to BRN, BPPE, and the Department of Education, no regulator acknowledged the exposure of internal structure or responded to my documented concerns.<br><a href="https://drive.google.com/file/d/19_TW2If2mmuUO4d2iROv1vkw_6JNuZJn/view?usp=drive_link" target="_blank">View Screenshot</a>
+                </li>
+                <br>
+                <li><strong>Encouragement of Group Cheating – Prime Clinical Entrance Exam</strong>
+                    <br>
+                    Internal email from Clinical Coordinator Jasmin Salazar urging students to “work together” on a required Prime Healthcare clinical exam to “get cleared.” I reported this multiple times to Success Education Colleges (SEC) leadership and to Prime Healthcare, yet no one has acknowledged it — not even once.<br><a href="https://drive.google.com/file/d/1kKUl_BtTcDc9SPToZsj-iVqvKbq2-d4D/view?usp=drive_link">View Document</a>
+                </li>
+                <br>
+                <li><strong>Internal Structure Access – NWC/SEC Faculty & Org Listings</strong>
+                    <br>
+                    Microsoft Teams and internal tools freely exposed corporate structure, faculty directories, and cross-campus organizational maps to any MFSON student. I reported this to the BRN, BPPE, and other regulators — but never received a single acknowledgment or confirmation of receipt, despite multiple follow-ups.<br><a href="https://drive.google.com/file/d/1spjRBE32WRaLklUH3oonoLQP1DKCgtEZ/view?usp=drive_link" target="_blank">View Document</a>
+                </li>
+                <br>
+                <li><strong>Filing Confirmation Stub (Unlabeled)</strong>
+                    <br>
+                    Likely metadata or filing timestamp document; may assist timeline validation for audit purposes.<br><a href="https://drive.google.com/file/d/15l-nkEM73AFZCD-w8Z1ZJrzZRnOy0Tu7/view?usp=drive_link" target="_blank">View Document</a>
+                </li>
+                <br>
+                <li><strong>NWC Investments – Info Filing (2022)</strong>
+                    <br>
+                    Statement of Information showing Mitchell Fuerst as agent and manager for NWC INVESTMENTS, LLC, at the Costa Mesa campus address.<br><a href="https://drive.google.com/file/d/1Lez8QxjAvtOqf3lH7Fd5w1DlAxGiU7Br/view?usp=drive_link" target="_blank">View Document</a>
+                </li>
+                <br>
+                <li><strong>Screenshot – Success Riverside LLC Secretary of State Listing</strong>
+                    <br>
+                    CA Secretary of State page showing active listing for “Success Riverside, LLC” with Mitchell Fuerst as agent.<br><a href="https://drive.google.com/file/d/1Bnuh_gvQfSZj4gbHlKVCoBJvKtMUhJTa/view?usp=drive_link" target="_blank">View Screenshot</a>
+                </li>
+                <br>
+                <li><strong>Amendment – NWC Renamed to Success Riverside (2022)</strong>
+                    <br>
+                    Official amendment filed December 30, 2022. Signed by Mitchell Fuerst, formally renaming the LLC from NWC INVESTMENTS to SUCCESS RIVERSIDE.<br><a href="https://drive.google.com/file/d/1IZYNCywOrx5g7S9viXJvY37-3EQkjatr/view?usp=drive_link" target="_blank">View Amendment</a>
+                </li>
+                <br>
+                <li><strong>Statement of Information – Success Riverside, LLC (2024)</strong>
+                    <br>
+                    Filed in 2024, this document confirms Mitchell Fuerst as both agent and managing member of SUCCESS RIVERSIDE. Entity is listed as “REAL ESTATE.”<br><a href="https://drive.google.com/file/d/1EsViWWaVffI5B3ayymwA3BVWe1tRkmKa/view?usp=drive_link" target="_blank">View Document</a>
+                </li>
+                <br>
+                <li><strong>Secretary of State Lookup – Fuerst Agent Verification (2025)</strong>
+                    <br>
+                    Screenshot of the updated 2025 state registry confirming continued status of SUCCESS RIVERSIDE with Mitchell Fuerst as sole agent.<br><a href="https://drive.google.com/file/d/1A_wATthLj1F-ebRLZAfSKyyX6aL4VO1X/view?usp=drive_link" target="_blank">View Screenshot</a>
+                </li>
+                <br>
+                <li><strong>West Covina Campus Tied to Suspended LLC</strong>
+                    <br>
+                    Image revealing Plan D Properties, LLC — associated with a known SEC/NWC address — is currently suspended by the California Franchise Tax Board.<br><a href="https://drive.google.com/file/d/1PUh1kUis6VeHLnsjt5svnJ6QkFa7DUPU/view?usp=drive_link" target="_blank">View Screenshot</a>
+                </li>
+                <li><strong>The volume of potential evidence is staggering.</strong>
+                    <br>
+                    New intel drops will be added daily. The archive has only just begun.
+                </li>
+            </ul>
+        </ul>
+    </div>
+    <!-- 🔁 Toggle Script -->
+    <!-- Quote Box -->
+    <!-- 🔻 Red Divider Line -->
+    <div style="width: 60%; border-top: 2px solid #cc0000; margin: 24px auto;"></div>
+    <!-- 💥 LLC Punchline -->
+    <div style="
+  text-align: center;
+  font-family: 'Special Elite', monospace;
+  font-size: 1.5rem;
+  color: #b30000;
+  margin-bottom: 10px;
+  text-shadow: 0 0 2px #cc0000, 0 0 6px #ff0000;
+">
+        Have you cleaned up your LLCs lately, Mitchell?
+</div>
+    <!-- 🔻 Red Divider Line -->
+    <div style="width: 60%; border-top: 2px solid #cc0000; margin: 24px auto;"></div>
+    <!-- 🕯️ Marsha Fuerst Legacy Prompt -->
+    <div style="text-align: center; margin: 40px auto 20px auto;  padding-right: 6px; max-width: 480px;">
+        <img src="https://drive.google.com/thumbnail?id=1mZGv7U_EXtOFyJBnAIy9cRhmpvPK8xp9" alt="Marsha Fuerst" style="display: block; margin-left: auto; margin-right: auto; width: 100%; border-radius: 16px; border: 2px solid #cc0000; box-shadow: 0 0 10px rgba(204,0,0,0.3);"/>
+        <div class="image-attribution" style="font-size: 11px; line-height: 1.5; font-family: 'Special Elite', monospace; padding: 8px 0;"><strong>Image Attribution</strong>
+            <br><em>Source:</em> SGV Tribune (2012)<br><em>Photographer:</em> Leo Jarzomb<br><em>Subject:</em> Marsha Fuerst<br><em>Use Basis:</em> Fair Use (<a href="https://www.law.cornell.edu/uscode/text/17/107" target="_blank">17 U.S.C. § 107</a>) — for commentary, criticism, and matters of public interest.
+        </div>
+        <!-- 🔻 Red Divider Line -->
+        <div style="width: 60%; border-top: 2px solid #cc0000; margin: 24px auto;"></div>
+        <!-- 🔻 Red Divider Line -->
+        <div style="
+  margin-top: 12px;
+  font-family: 'Special Elite', monospace;
+  font-size: .8rem;
+  color: #b30000;
+  text-shadow: 0 0 2px #cc0000, 0 0 6px #ff0000;
+  line-height: 1.6;
+  text-align: center;
+">
+            An empire bears her name.<br>
+            But does it still reflect her values?
+        </div>
+        <!-- 🔻 Red Divider Line -->
+        <div style="width: 60%; border-top: 2px solid #cc0000; margin: 24px auto;"></div>
+        <!-- Marsha Fuerst Reflection Section -->
+        <div style="font-size: 0.85rem; text-align: center; font-style: italic; max-width: 600px; margin: 0 auto; line-height: 1.6;">
+            <p>
+    This page references Marsha Fuerst not to cast blame, but to honor the impact her name once carried. </p>
+            <p>
+    Marsha helped countless students begin careers in healthcare—many of whom went on to care for their families, support their communities, and uplift others. Her efforts changed lives, and for that, she deserves recognition. </p>
+            <p>
+    But when a name becomes a legacy, it also becomes a responsibility. </p>
+            <p>
+    I raised serious concerns about a clinical coordinator allegedly encouraging group cheating—an email sent to all of Cohort #4 that appeared designed to rush students through. These concerns were shared directly with SEC leadership, Prime Healthcare, and various regulatory agencies. Despite multiple follow-ups, no formal response was ever received. </p>
+            <p>
+    The image shown here is not meant to mock the deceased. It is used symbolically—to reflect the generational continuity of power and to question how that power is now being exercised. Under Mitchell Fuerst’s leadership, an empire continues to operate under Marsha’s name. And yet... troubling silence. </p>
+            <p>
+    Would Marsha have ignored these kinds of allegations? Would she have allowed them to go unacknowledged? </p>
+            <p style="margin-top: 20px;">
+    A legacy is not only remembered.<br>
+    It is upheld—or it is betrayed. </p>
+        </div>
+        <!-- Class Action Form -->
+        <form name="Preliminary Class Action Intake" method="POST" data-netlify="true" style="margin-top: 40px; text-align: left; padding: 16px; border: 2px solid red; border-radius: 12px; background: #fff; max-width: 440px; margin-left: auto; margin-right: auto; font-family: 'Special Elite', monospace;">
+            <h2 style="text-align: center; color: #cc0000;">Preliminary Class Action Intake</h2>
+            <p style="font-size: 0.9rem; text-align: center; margin-bottom: 20px;">
+  Current and former students, faculty, or staff with concerns about Success Education Colleges or Marsha Fuerst School of Nursing may be eligible to join active legal efforts. Submissions are confidential unless you request otherwise.</p>
+            <label for="role">I am a:</label>
+            <br>
+            <select id="role" name="role" required style="box-sizing: border-box; width: 100%; padding: 8px; margin-bottom: 12px; font-family: 'Special Elite', monospace;">
+                <option value="">Select...</option>
+                <option value="student-current">Current Student</option>
+                <option value="student-former">Former Student</option>
+                <option value="faculty-current">Current Faculty/Staff</option>
+                <option value="faculty-former">Former Faculty/Staff</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="name">Full Name</label>
+            <br>
+            <input type="text" id="name" name="name" required style="box-sizing: border-box; width: 100%; padding: 8px; margin-bottom: 12px; font-family: 'Special Elite', monospace;">
+            <br>
+            <label for="email">Email Address</label>
+            <br>
+            <input type="email" id="email" name="email" required style="box-sizing: border-box; width: 100%; padding: 8px; margin-bottom: 12px; font-family: 'Special Elite', monospace;">
+            <br>
+            <label for="message">Brief Description or Testimony (Optional)</label>
+            <br>
+            <textarea id="message" name="message" rows="5" style="box-sizing: border-box; width: 100%; padding: 8px; margin-bottom: 12px; font-family: 'Special Elite', monospace;"></textarea>
+            <br>
+            <!-- Centered Submit Button -->
+            <div style="text-align: center; margin-top: 16px;">
+                <button type="submit" style="background: #cc0000; color: white; border: none; padding: 10px 18px; font-family: 'Special Elite', monospace; border-radius: 6px; cursor: pointer;">
+                    Submit Confidentially
+</button>
+            </div>
+            <!-- Centered Disclaimer Text -->
+            <p style="margin-top: 12px; font-size: 0.8rem; color: #111; text-align: center;">
+  This secure form allows current or former students, faculty, or staff with concerns to confidentially register their interest in potential future legal actions related to Success Education Colleges (SEC) or Marsha Fuerst School of Nursing (MFSON).<br><br> <strong>This is not a legal filing.</strong> It is an early-stage documentation effort intended to assess interest and collect accounts.All submissions are confidential and will not be shared unless you explicitly request or consent otherwise.</p>
+    </div>
+</form>
+<!-- 🔻 Red Divider Line -->
+<div style="width: 60%; border-top: 2px solid #cc0000; margin: 24px auto;"></div>
+<div id="parody-countdown-wrapper">
+    <div id="parody-countdown-label">Accountability Timer</div>
+    <div id="parody-countdown-timer">0d 0h 0m 00s</div>
+    <div id="parody-countdown-caption">
+        Transparency protocol engaged.<br>
+        (Results withheld pending internal review.)
+    </div>
+</div>
+<!-- 🔻 Red Divider Line -->
+<div class="metadata-center"><strong>Last Deploy:</strong> Mon, Aug 4, 2025, 01:05 AM UTC
+</div>
+<script>
+  document.getElementById("deployTime").textContent = new Date(document.lastModified).toLocaleString();
+</script>
+<div style="
+  margin-top: 12px;
+  padding: 16px 24px;
+  text-align: center;
+  font-size: 0.78rem;
+  color: #333;
+  font-family: 'Special Elite', monospace;
+  background-color: #f5ead7;
+  border-top: 1px solid #cc0000;
+">
+    <p style="max-width: 600px; margin: 0 auto; line-height: 1.6; font-size: 0.9em; color: #111; font-family: 'Special Elite', monospace;"> <strong>Legal & Commentary Disclaimer:</strong><br>
+  All statements, phrases, and expressions on this site — including satirical or symbolic remarks such as “success comes with subpoenas” — are protected under the First Amendment as lawful commentary, opinion, or parody. Nothing herein should be construed as a literal accusation of criminal conduct unless specifically and factually stated as such. This platform serves as a whistleblower archive, investigative expression, and public interest record under applicable federal protections including <em>Title IX, ADA, FERPA, Section 504</em>, and related laws.</p>
+    <p style="max-width: 600px; margin: 2em auto 0 auto; line-height: 1.6; font-size: 0.9em; color: #111; font-family: 'Special Elite', monospace;"> <strong>Image & Commentary Disclaimer:</strong><br>
+  The image of Marsha Fuerst shown on this site is used under the Fair Use doctrine (17 U.S.C. § 107) for purposes of public interest reporting, commentary, and protected whistleblower expression. The original image appeared in a publicly accessible obituary published by the San Gabriel Valley Tribune. This usage is non-commercial, transformative, and directly related to matters of public concern involving educational governance and institutional oversight. FuerstFiles.com is not affiliated with Marsha Fuerst, North-West College, or Success Education Colleges.</p>
+    <p style="max-width: 600px; margin: 2em auto 0 auto; line-height: 1.6; font-size: 0.9em; color: #111; font-family: 'Special Elite', monospace;"> <strong>Good Faith Notice:</strong><br>
+  This is a good faith effort to document and raise awareness of institutional experiences and potential wrongdoing. The platform is offered in the spirit of transparency, reform, and legal accountability.</p>
+    <p style="max-width: 600px; margin: 2em auto 4em auto; line-height: 1.6; font-size: 0.8em; color: #111; font-family: 'Special Elite', monospace;"> <em>Estimated damages reflect cumulative harm allegations from students, faculty, and regulatory failures — not a final legal judgment.</em></p>

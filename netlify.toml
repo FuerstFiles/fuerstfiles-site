@@ -1,0 +1,9 @@
+[build]
+  command = "bash inject-timestamp.sh"
+  publish = "."
+
+[[redirects]]
+  from = "http:///*"
+  to = "https://:host/:splat"
+  status = 301
+  force = true
